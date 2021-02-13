@@ -6,6 +6,45 @@
     <title>Niko</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <img
+        class="navbar__logo"
+        src="./assets/icons/logo-nike.svg"
+        alt="Logo Niko"
+      />
+      <menu class="navbar__menu">
+        <ul class="navbar__menu__list">
+          <li class="navbar__menu__list__item">
+            <a href="#">Nuevos lanzamientos</a>
+          </li>
+          <li class="navbar__menu__list__item"><a href="#">Regalos</a></li>
+          <li class="navbar__menu__list__item"><a href="#">Hombre</a></li>
+          <li class="navbar__menu__list__item"><a href="#">Mujer</a></li>
+          <li class="navbar__menu__list__item"><a href="#">Niño/a</a></li>
+          <li class="navbar__menu__list__item"><a href="#">Rebajas</a></li>
+          <li class="navbar__menu__list__item"><a href="#">SNKRS</a></li>
+        </ul>
+      </menu>
+      <div class="navbar__actions">
+        <div class="navbar__actions__input-container">
+          <img src="./assets/icons/search-icon.svg" alt="search-icon" />
+          <input placeholder="Buscar" type="text" />
+        </div>
+        <a class="navbar__actions__link" href="#favorites">
+          <img src="./assets/icons/like-icon.svg" alt="like icon"
+        /></a>
+        <a class="navbar__actions__link" href="#cart">
+          <img src="./assets/icons/cart-icon.svg" alt="cart icon"
+        /></a>
+      </div>
+    </nav>
+  </body>
 </html>
