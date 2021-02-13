@@ -198,6 +198,7 @@ body {
   margin-top: 8px;
   font-weight: 600;
   font-size: 1rem;
+  text-decoration: none;
   background-color: white;
   border: 1px solid var(--soft-gray);
   border-radius: 150px;
@@ -296,7 +297,7 @@ body {
 .trends__carousel__item__price {
   margin-top: 16px;
   color: var(--black-1);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .footer {

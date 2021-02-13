@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niko - Bolsa de Compra</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="navbar container">
+      <img
+        class="navbar__logo"
+        src="../assets/icons/logo-nike.svg"
+        alt="Logo Niko"
+      />
+      <ul class="navbar__menu-list">
+        <li class="navbar__menu-list__item">
+          <a href="#">Nuevos lanzamientos</a>
+        </li>
+        <li class="navbar__menu-list__item"><a href="#">Regalos</a></li>
+        <li class="navbar__menu-list__item"><a href="#">Hombre</a></li>
+        <li class="navbar__menu-list__item"><a href="#">Mujer</a></li>
+        <li class="navbar__menu-list__item"><a href="#">Niño/a</a></li>
+        <li class="navbar__menu-list__item"><a href="#">Rebajas</a></li>
+        <li class="navbar__menu-list__item"><a href="#">SNKRS</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <input
+          class="navbar__actions__search"
+          placeholder="Buscar"
+          type="text"
+        />
+        <a class="navbar__actions__link" href="#favorites">
+          <img src="../assets/icons/like-icon.svg" alt="like icon"
+        /></a>
+        <a class="navbar__actions__link" href="/cart">
+          <img src="../assets/icons/cart-icon.svg" alt="cart icon"
+        /></a>
+      </div>
+    </nav>
+
+    <main class="container main">
+      <div class="main-grid">
+        <section class="cart-info">
+          <div class="cart-info__shipping">
+            <h2>Envío gratuito para miembros.</h2>
+            <p>
+              Hazte miembro de Nike para disfrutar de envíos rápidos y
+              gratuitos. <a href="">Únete</a> o <a href="#">Iniciar sesión</a>
+            </p>
+          </div>
+
+          <div class="cart-info__cart">
+            <h2 class="cart-info__cart__title">Bolsa de compra</h2>
+            <article class="cart-item">
+              <img
+                class="cart-item__img"
+                src="../assets/images/image-1.png"
+                alt="imagen"
+              />
+              <div class="cart-item__info">
+                <div class="cart-item__info__content">
+                  <p class="cart-item__info__content__title">
+                    Nike Air Force 1
+                  </p>
+                  <p class="cart-item__info__content__desc">
+                    Calzado para hombre
+                  </p>
+                  <p class="cart-item__info__content__desc">Blanco/Blanco</p>
+                  <div class="cart-item__info__content__desc__data">
+                    <p>Talla <span class="number">30.5</span></p>
+                    <p>Cantidad <span class="number">1</span></p>
+                  </div>
+                </div>
+                <span class="cart-item__info__price">$1999.00</span>
+              </div>
+              <div class="cart-item__actions">
+                <a href="#">Mover a favoritos</a>
+                <a href="#">Eliminar</a>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section>
+          <h3>Resumen</h3>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <ul class="footer__list">
+              <li class="footer__list__item --important">
+                <a href="#">Buscar tienda</a>
+              </li>
+              <li class="footer__list__item --important">
+                <a href="#">Regístrate para recibir correos</a>
+              </li>
+              <li class="footer__list__item --important">
+                <a href="#">Electrónicos</a>
+              </li>
+              <li class="footer__list__item --important">
+                <a href="#">Hazte miembro</a>
+              </li>
+              <li class="footer__list__item --important">
+                <a href="#">Envíanos tus comentarios</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="footer__list">
+              <li class="footer__list__item --important">Obtener ayuda</li>
+              <li class="footer__list__item">
+                <a href="#">Estado del pedido</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#">Envío y entrega</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#">Devoluciones</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#">Opciones de pago</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#">Comunícate con nosotros</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="footer__list">
+              <li class="footer__list__item --important">Acerca de niko</li>
+              <li class="footer__list__item">
+                <a href="#">Noticias</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#">Empleo</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#">Inversionistas</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#">Sostenibilidad</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__social-media-icons">
+            <a class="footer__social-media-icons__item" href="#"
+              ><span class="icon twitter"></span
+            ></a>
+            <a class="footer__social-media-icons__item" href="#"
+              ><span class="icon facebook"></span
+            ></a>
+            <a class="footer__social-media-icons__item" href="#"
+              ><span class="icon youtube"></span
+            ></a>
+            <a class="footer__social-media-icons__item" href="#"
+              ><span class="icon instagram"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
