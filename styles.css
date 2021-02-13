@@ -170,3 +170,50 @@ body {
 .main-product__info__size-selector-grid button:disabled {
   background-color: var(--grey-2);
 }
+
+.main-product__info__actions {
+  margin-top: 16px;
+}
+
+.main-product__info__actions__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  border-radius: 150px;
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+.main-product__info__actions__btn:hover {
+  border: 1px solid var(--grey);
+  background-color: rgba(117, 117, 117, 0.2);
+}
+
+.--primary {
+  color: white;
+  background-color: var(--black-1);
+  border: none;
+}
+
+.--primary:hover {
+  background-color: #6f6f6f;
+}
+
+.main-product__info__actions__btn:nth-child(2) {
+  margin-top: 8px;
+}
+
+.favorite-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("./assets/icons/like-icon.svg");
+  background-size: cover;
+  margin-left: 8px;
+}
