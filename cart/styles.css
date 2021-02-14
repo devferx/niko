@@ -235,6 +235,37 @@ body {
   background-color: var(--soft-gray);
 }
 
+.cart-shipping {
+  margin-top: 40px;
+}
+
+.cart-shipping__title {
+  font-weight: 600;
+}
+
+.cart-shipping__text a {
+  margin-left: 8px;
+  color: var(--black-1);
+}
+
+.cart-favorites {
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+
+.cart-favorites__title {
+  font-size: 2rem;
+}
+
+.cart-favorites__text {
+  margin-top: 4px;
+}
+
+.cart-favorites__text a {
+  color: var(--black-1);
+  font-weight: 600;
+}
+
 .footer {
   display: grid;
   height: 352px;
