@@ -175,6 +175,66 @@ body {
   grid-row-start: 2;
 }
 
+.cart-resume__title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.cart-resume__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.cart-resume__total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid var(--soft-gray);
+  border-radius: 150px;
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+.btn:hover {
+  border: 1px solid var(--grey);
+  background-color: var(--soft-gray);
+}
+
+.--primary {
+  color: white;
+  background-color: var(--black-1);
+  border: none;
+}
+
+.--primary:hover {
+  background-color: #6f6f6f;
+}
+
+.btn:first-child {
+  margin-top: 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 16px 0;
+  background-color: var(--soft-gray);
+}
+
 .footer {
   display: grid;
   height: 352px;
