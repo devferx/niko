@@ -96,7 +96,7 @@ body {
 
 .main-product__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 400px 400px;
   grid-template-rows: 500px 500px;
   gap: 16px;
 }
@@ -108,6 +108,8 @@ body {
 }
 
 .main-product__grid__img-container__img {
+  width: 100%;
+  object-fit: cover;
   transition: 400ms transform;
 }
 
