@@ -392,3 +392,64 @@ body {
 .icon.youtube {
   background-image: url("./assets/icons/youtube-icon.svg");
 }
+
+@media screen and (max-width: 1270px) {
+  .container {
+    margin: 0;
+    padding: 0 40px;
+  }
+
+  .navbar__menu-list {
+    display: none;
+  }
+
+  .main-product {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .main-product__grid {
+    margin-top: 32px;
+  }
+
+  .main-product__info {
+    margin: 0;
+  }
+  .main-product__info__size-selector {
+    max-width: 459px;
+    margin: 0 auto;
+  }
+
+  .trends__carousel__item {
+    width: 300px;
+  }
+
+  .trends__carousel__item__img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .footer {
+    height: auto;
+    padding: 64px 0;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__social-media-icons {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 774px) {
+  .main-product__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .navbar__actions__search {
+    display: none;
+  }
+}
