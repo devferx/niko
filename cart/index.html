@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Niko - Bolsa de Compra</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="../assets/css/cart.css" />
+    <link rel="stylesheet" href="../assets/css/global.css" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <nav class="navbar container">
@@ -20,7 +23,7 @@
           alt="Logo Niko"
         />
       </a>
-      <ul class="navbar__menu-list">
+      <ul class="navbar__menu-list" id="menu-list">
         <li class="navbar__menu-list__item">
           <a href="#">Nuevos lanzamientos</a>
         </li>
@@ -46,6 +49,9 @@
           /></a>
           <span class="navbar__actions__cart-container__counter">1</span>
         </div>
+        <button class="navbar__actions__menu" id="menu-button">
+          <img src="../assets/icons/menu-icon.svg" alt="menu-icon" />
+        </button>
       </div>
     </nav>
 
@@ -213,5 +219,6 @@
         </div>
       </div>
     </footer>
+    <script src="../assets/js/main.js"></script>
   </body>
 </html>
